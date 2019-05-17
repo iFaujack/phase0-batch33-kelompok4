@@ -45,8 +45,9 @@ footer{
     height: 10vh;
     width: 100%;
     text-align: center;
-    background: #23232d;
+    background: black;
     color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 footer h3 {
@@ -156,7 +157,7 @@ footer h3 {
   }
 
   .card img {
-      width: 80%;
-      height: 50%;
+      width: 200px;
+      height: 300px;
       margin: 0 10%;
   }
