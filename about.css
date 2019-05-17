@@ -29,6 +29,12 @@ nav li:hover {
     border-bottom: 3px solid #bfa16b;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 /* header */
 
 .header {
@@ -123,7 +129,7 @@ footer {
     height: 10vh;
     width: 100%;
     text-align: center;
-    background: #23232d;
+    background-image: url(img/pinstriped_suit.png);
     color: white;
 }
 
