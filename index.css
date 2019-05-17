@@ -3,6 +3,11 @@ body, html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     background-color:white;
     margin: 0;
@@ -22,6 +27,8 @@ nav li{
     padding: 20px;
     font-size: 30px;
 }
+
+
 
 nav li:hover{
     border-bottom: 3px solid #bfa16b;
