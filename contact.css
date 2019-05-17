@@ -6,18 +6,29 @@ header{
     background-color:black;
     text-align: center;
 }
-ul {
-    list-style-type: none;
-    margin:0;
-    padding: 0;
+
+nav {
+    background-color:white;
+    margin: 0;
+    width: 100%;
+    height: 125px;
 }
 
-li{
+nav ul{
+    margin: 0 auto;
+    text-align: center; 
+    padding: 25px;
+}
+
+nav li{
     display: inline-block;
-    color: white;
+    color:#555;   
     padding: 20px;
+    font-size: 30px;
+}
 
-
+nav li:hover{
+    border-bottom: 3px solid #bfa16b;
 }
 
 /*body */
@@ -47,10 +58,19 @@ input[type="submit"]:hover {
 
 /*footer */
 footer{
-    background-color: black;
+    bottom: 0;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
     text-align: center;
-    padding: 20px;
+    background: #23232d;
+    color: white;
 }
-footer h2{
-    color:white;
+
+footer h3 {
+    padding: 20px;
+    right: 0;
+    left: 0;
+    position: absolute;
+
 }
