@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+body, html{
+    margin: 0;
+    padding: 0;
+}
 
 .grid{
     display: grid;
@@ -19,16 +23,36 @@
     
     
   }
-.header{
-    background-color:grey;
-    font-family: Helvetica, sans-serif;
-    font-weight:400;
-    font-size:20px;
-    position: relative;
+
+  nav {
+    background-color:white;
+    margin: 0;
     width: 100%;
-    height: 100px;
-    text-align: center;
+    height: 125px;
 }
+
+nav ul{
+    margin: 0 auto;
+    text-align: center; 
+    padding: 25px;
+}
+
+nav li{
+    display: inline-block;
+    color:#555;   
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    border-bottom: 3px solid #bfa16b;
+}
+
 p.top-paragraph {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:12;
@@ -56,16 +80,32 @@ img{
     height: 400px;
     width:auto;
 }
- footer{
-     height:auto;
-     width: 100%;
-     background-color: grey;
-     display: block;
-     text-align: center;
-     padding: 1px;
- }
+
  p{
      text-align:justify;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 18px;
  }
+
+ footer{
+    bottom: 0;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+footer h3 {
+    padding: 0px;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+#amount{
+    width: 50px;
+}
